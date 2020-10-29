@@ -171,7 +171,7 @@ reset_config() {
         return 0
     fi
     /usr/local/v2-ui/v2-ui resetconfig
-    echo -e "所有面板已重置为默认值，现在请重启面板，并使用默认的 ${green}65432${plain} 端口访问面板"
+    echo -e "所有面板已重置为默认值，现在请重启面板，并使用默认的 ${green}443${plain} 端口访问面板"
     confirm_restart
 }
 

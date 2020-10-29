@@ -63,7 +63,7 @@ After installing the panel on the new server, close the panel, then overwrite th
 
 # Common problem
 ## After installing, can't open the panel.
-Check the panel status, make sure that the 65432 port has been released after running.
+Check the panel status, make sure that the 443 port has been released after running.
 
 ## How to customize the v2ray config.json
 Go to [panel settings] and there is a [v2ray config template]. You can modify the configuration template here, for example, modify the routing, add a mtproto yourself, etc. If you are not familiar enough with the v2ray configuration file, then it is recommended to learn more from the v2ray official documentation.
@@ -74,7 +74,7 @@ Use the following command to reset the username and password, the default is adm
 /usr/local/v2-ui/v2-ui resetuser
 ```
 ## Panel setting modification error caused the panel to fail to start
-Use the following command to reset all panel settings, the default panel port is modified to 65432, and the others are reset to their default values.
+Use the following command to reset all panel settings, the default panel port is modified to 443, and the others are reset to their default values.
 
 Note that this command does not reset the username and password.
 ```
